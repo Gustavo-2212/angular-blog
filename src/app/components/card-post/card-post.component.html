@@ -1,0 +1,14 @@
+<div class="container-post">
+    <div class="image-post">
+        <a [routerLink]="['content/', id]">
+            <img src="{{ photo }}" alt="post #1">
+        </a>
+    </div>
+
+    <div class="description-post">
+        <span>{{ category }}</span>
+        <h3>
+            <a [routerLink]="['content/', id]">{{ title }}</a>
+        </h3>
+    </div>
+</div>

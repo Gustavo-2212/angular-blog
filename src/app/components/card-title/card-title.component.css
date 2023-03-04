@@ -1,0 +1,15 @@
+.container-card-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 640px;
+    height: auto;
+    padding: 1rem;
+    margin: 2rem 2rem;
+}
+
+.container-card-title > .text {
+    font-weight: bold;
+    color: #2c2c2c;
+    font-size: 1.5rem;
+}

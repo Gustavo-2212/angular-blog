@@ -1,0 +1,26 @@
+app-card-title {
+    display: flex;
+    justify-content: center;
+}
+
+app-card-post-main {
+    display: flex;
+    justify-content: center;
+}
+
+app-menu-post {
+    display: flex;
+    justify-content: center;
+}
+
+.posts {
+    max-width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 1rem;
+}
+
+app-card-post {
+    max-width: fit-content;
+}

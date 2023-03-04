@@ -1,0 +1,55 @@
+h3 {
+    color: #56538B;
+    font-size: 2rem;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px 0.5rem 0px 0.5rem;
+}
+
+a {
+    color: #2c2c2c;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+button {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: 1px solid #5D48E0;
+    border-radius: 10px;
+    background-color: #5D48E0;
+    color: #efefef;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.container-menu-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.logo-menu-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    margin-right: 100px;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-bar > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

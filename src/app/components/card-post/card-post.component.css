@@ -1,0 +1,23 @@
+.container-post {
+    max-width: 269px;
+}
+
+span {
+    color: blue;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+h3 {
+    font-size: medium;
+    margin-top: 10px;
+}
+
+img {
+    width: 269px;
+    height: 205px;    
+}
+
+.description-post {
+    margin-left: 7px;
+}
