@@ -18,6 +18,7 @@ img {
     flex-direction: column;
     justify-content: space-around;
     max-height: 321px;
+    min-width: 423px;
 }
 
 span {

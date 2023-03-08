@@ -10,6 +10,7 @@ import { MenuPostComponent } from './components/menu-post/menu-post.component';
 import { CardPostComponent } from './components/card-post/card-post.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
+import { DefaultComponent } from './components/default/default.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContentComponent } from './pages/content/content.component';
     MenuPostComponent,
     CardPostComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent,
+    DefaultComponent
   ],
   imports: [
     BrowserModule,

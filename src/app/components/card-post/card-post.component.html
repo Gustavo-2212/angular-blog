@@ -1,6 +1,6 @@
 <div class="container-post">
     <div class="image-post">
-        <a [routerLink]="['content/', id]">
+        <a [routerLink]="['blogs', id]">
             <img src="{{ photo }}" alt="post #1">
         </a>
     </div>
@@ -8,7 +8,7 @@
     <div class="description-post">
         <span>{{ category }}</span>
         <h3>
-            <a [routerLink]="['content/', id]">{{ title }}</a>
+            <a [routerLink]="['blogs', id]">{{ title }}</a>
         </h3>
     </div>
 </div>

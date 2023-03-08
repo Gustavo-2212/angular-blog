@@ -6,11 +6,27 @@
 
     <div class="menu-bar">
         <ul>
-            <li><a [routerLink]="['']">Home</a></li>
-            <li><a href="#">Case Studies</a></li>
-            <li><a href="#">Portfolios</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Resource</a></li>
+            <li><a 
+                    [routerLink]="['']"
+                    [routerLinkActive]="['activated']"
+                    [routerLinkActiveOptions]="{exact: true}"    
+                >Home</a></li>
+            
+            <li><a 
+                [routerLink]="['case-studies']" 
+                [routerLinkActive]="['activated']"
+                >Case Studies</a></li>
+
+            <li><a 
+                [routerLink]="['blogs']" 
+                [routerLinkActive]="['activated']"
+                >Blog</a></li>
+
+            <li><a 
+                [routerLink]="['resource']" 
+                [routerLinkActive]="['activated']"
+                >Resource</a></li>
+                
             <li>
                 <button>
                     Hire Us
